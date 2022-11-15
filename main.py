@@ -492,7 +492,6 @@ async def real_sensor_task():
 # Run both tasks.
 async def main():
     t1 = asyncio.create_task(peripheral_task())
-    #t2 = asyncio.create_task(real_sensor_task())
     await asyncio.gather(t1)
 
 asyncio.run(main())
