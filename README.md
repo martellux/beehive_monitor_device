@@ -3,20 +3,21 @@ A rudimentary device for the environmental monitoring of beehives based on ESP32
 
 ## Some details
 
-## 1. The Board
+### 1. The Board
 The board used for this project is a standard ESP32-DevKitC [ESPRESSIF Website](https://www.espressif.com/en/products/devkits/esp32-devkitc).
 The board has been flashed with MicroPython firmware v1.19.1 [MicroPython](https://micropython.org/download/esp32/).
 
-## 2. The Sensor
+### 2. The Sensor
 The sensor used for this project is a standard [Specifications](https://components101.com/sensors/dht22-pinout-specs-datasheet)
 
-## 3. The Software
+### 3. The Software
 The software for the measurement and for the BLE connections has been developed using MicroPython for ESP32 [Docs](https://docs.micropython.org/en/latest/esp32/quickref.html)
 
-## 4. The Box
+### 4. The Box
 A tailored Lego-based box has been designed for containing the ESP32 board and a PowerBank as power supplier. Further, some peculiarities have been provided for cables and sensor.
 
-## License
+License
+-------
 
     Copyright 2016 Alessandro Martellucci
 
