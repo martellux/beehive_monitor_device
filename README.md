@@ -8,7 +8,7 @@ The board used for this project is a standard ESP32-DevKitC [ESPRESSIF Website](
 The board has been flashed with MicroPython firmware v1.19.1 [MicroPython](https://micropython.org/download/esp32/)
 
 ### 2. The Sensor
-The sensor used for this project is a standard [Specifications](https://components101.com/sensors/dht22-pinout-specs-datasheet)
+The sensor used for this project is a standard DHT22 [Specifications](https://components101.com/sensors/dht22-pinout-specs-datasheet)
 
 ### 3. The Software
 The software for the measurement and for the BLE connections has been developed using MicroPython for ESP32 [Docs](https://docs.micropython.org/en/latest/esp32/quickref.html)
