@@ -15,7 +15,7 @@ The software for the measurement and for the BLE connections has been developed 
 
 ### 4. The Box
 A tailored Lego-based box has been designed for containing the ESP32 board and a PowerBank as power supplier. Further, some peculiarities have been provided for cables and sensor.
-![Box Render](https://raw.githubusercontent.com/martellux/beehive_monitor_device/develop/blob/BoxSmall.png?token=GHSAT0AAAAAABVL72YG4YRNXZKNDXZ6VZUWY54FTMQ)
+![Screenshot](BoxSmall.png)
 
 The design hass been realized with with Studio by bricklink [Download](https://www.bricklink.com/v3/studio/download.page) and can be downloaded here [Source file](https://github.com/martellux/beehive_monitor_device/blob/develop/box/BoxSmall.io?raw=true)
 
