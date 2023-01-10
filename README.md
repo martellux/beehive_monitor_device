@@ -19,6 +19,15 @@ A tailored Lego-based box has been designed for containing the ESP32 board and a
 
 The design hass been realized with with Studio by bricklink [Download](https://www.bricklink.com/v3/studio/download.page) and can be downloaded here [Source file](https://github.com/martellux/beehive_monitor_device/blob/develop/box/BoxSmall.io?raw=true)
 
+### 5. How to use it
+Once powered, the board starts emitting the BLE advertising packet and it become discoverable and connectable from a BLE client. The name is "swarm-env-sensor".
+After the connection, the board shows up the following configuration:
+
+Service | Characteristic
+--- | ---
+"Environmental Sensing" service with UUID 181A | "Digital" characteristic with UUID 2A56
+| "Digital Output" characteristic with UUID 2A57
+
 
 License
 -------
