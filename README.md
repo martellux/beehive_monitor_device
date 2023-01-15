@@ -7,7 +7,7 @@ A rudimentary device for the environmental monitoring of beehives based on ESP32
 The board used for this project is a standard ESP32-DevKitC [ESPRESSIF Website](https://www.espressif.com/en/products/devkits/esp32-devkitc).
 The board has been flashed with MicroPython firmware v1.19.1 [MicroPython](https://micropython.org/download/esp32/)
 
-### 2. The Sensor
+### 2. The Sensor
 The sensor used for this project is a standard DHT22 [Specifications](https://components101.com/sensors/dht22-pinout-specs-datasheet)
 
 ### 3. The Software
@@ -25,9 +25,9 @@ Once powered, the board starts emitting the BLE advertising packet (peripheral m
 
 After the connection, the board shows up the following configuration:
 
-Service
----
-PRIMARY SERVICE "Environmental Sensing" service with UUID 181A
+Service | Name
+--- | ---
+PRIMARY SERVICE | "Environmental Sensing" service with UUID 181A
 
 Characteristic | Properties
 --- | ---
