@@ -19,14 +19,27 @@ A tailored Lego-based box has been designed for containing the ESP32 board and a
 
 The design hass been realized with with Studio by bricklink [Download](https://www.bricklink.com/v3/studio/download.page) and can be downloaded here [Source file](https://github.com/martellux/beehive_monitor_device/blob/develop/box/BoxSmall.io?raw=true)
 
-### 5. How to use it
-Once powered, the board starts emitting the BLE advertising packet and it become discoverable and connectable from a BLE client. The name is "swarm-env-sensor".
+### 5. Flash and Run
+The file main.py contains the code for the management of BLE communication and sensor scanning. With a simple tool, like [Thonny](https://thonny.org), you can open it and execute the loading into the ESP32 board. By default, the code in the main.py file is executed automatically at every boot of the board.
+Once powered, the board starts emitting the BLE advertising packet (peripheral mode) and it becomes discoverable and connectable from a BLE client. The discoverable name is "swarm-env-sensor". If you need a BLE client you can use a free Mobile App from Play Store or App Store (i.e [nRF Connect for Mobile](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp))
+
 After the connection, the board shows up the following configuration:
 
-Service | Characteristic
+Service
+---
+PRIMARY SERVICE "Environmental Sensing" service with UUID 181A
+
+Characteristic | Properties
 --- | ---
-"Environmental Sensing" service with UUID 181A | "Digital" characteristic with UUID 2A56
-| "Digital Output" characteristic with UUID 2A57
+"Digital" characteristic with UUID 2A56 | Write
+"Digital Output" characteristic with UUID 2A57 | Notify
+
+
+### 6. Available Commands
+
+Command | Type | Description
+--- | --- | ---
+"RN" | UTF-8 | Send this command to get current temperature and humidity
 
 
 License
